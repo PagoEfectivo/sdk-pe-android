@@ -14,9 +14,9 @@ El SDK de PagoEfectivo le permitirá implementar de forma rápida y sencilla las
 
   [https://PagoEfectivo.github.io/sdk-pe-android-documentation](https://PagoEfectivo.github.io/sdk-pe-android-documentation)
 
-  ## Releases
+  ## Última versión
 
-  Descarga nuestra [Última versión](https://github.com/PagoEfectivo/sdk-pe-android/releases/latest).
+  Descarga nuestra [última versión](https://github.com/PagoEfectivo/sdk-pe-android/releases/latest).
 
   ## Ejemplos
   ---
