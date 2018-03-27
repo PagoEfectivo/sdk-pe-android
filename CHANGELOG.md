@@ -2,6 +2,10 @@
 
 Todos los cambios notables en este proyecto serán documentados en este archivo.
 
+# 1.0.3 (27-03-2018)
+### Actualizado ✨ 🎉
+* Mejoras internas del SDK.
+
 # 1.0.1 (30-01-2018)
 ### Actualizado ✨ 🎉
 * Configuración del SDK.
@@ -14,13 +18,3 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 * Configuración del SDK.
 * Generación de CIPs.
 * Listar CIPs.
-
-
-
-
-
-
-
-
-
-
