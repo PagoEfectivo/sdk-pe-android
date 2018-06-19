@@ -2,6 +2,11 @@
 
 Todos los cambios notables en este proyecto serán documentados en este archivo.
 
+# 1.0.4 (19-06-2018)
+### Actualizado ✨ 🎉
+* Solución de problemas al indexar clases de generación de Cips.
+* Mejoras internas del SDK.
+
 # 1.0.3 (27-03-2018)
 ### Actualizado ✨ 🎉
 * Mejoras internas del SDK.
