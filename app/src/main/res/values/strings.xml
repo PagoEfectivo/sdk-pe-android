@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">PagoEfectivo SDK Sample</string>
+    <string name="main_title">Bienvenido a PagoEfectivo SDK</string>
+    <string name="generate_cip_button">Generar Cip</string>
+    <string name="list_cip_button">Buscar Cips</string>
+    <string name="amount">amount</string>
+    <string name="transaction_code">transactionCode</string>
+    <string name="additional_data">additionalData</string>
+    <string name="payment_concept">paymentConcept</string>
+    <string name="user_email">userEmail</string>
+    <string name="user_name">userName</string>
+    <string name="user_last_name">userLastName</string>
+    <string name="user_ubigeo">userUbigeo</string>
+    <string name="user_country">userCountry</string>
+    <string name="user_document_number">userDocumentNumber</string>
+    <string name="user_phone">userPhone</string>
+    <string name="user_code_country">userCodeCountry</string>
+    <string name="admin_email">adminEmail</string>
+
+    <string name="document_dni">DNI</string>
+    <string name="document_pas">Pasaporte</string>
+
+    <string name="document_lmi">Libreta Militar</string>
+    <string name="document_par">Partida de Nacimiento</string>
+    <string name="document_nan">Otros</string>
+
+    <string name="currency_pen">Soles</string>
+    <string name="currency_usd">Dólares</string>
+    <string name="generating_cip">Generando CIP</string>
+    <string name="add_row">Agregar una fila</string>
+    <string name="method_payment_name">Métodos de Pago</string>
+    <string name="pe_mobile_internet">PagoEfectivo Móvil y/o Internet</string>
+    <string name="pe_agents_agency">PagoEfectivo Agentes y Agencias</string>
+    <string name="pe_visa">Visa</string>
+    <string name="pe_master_card">Master Card</string>
+    <string name="pe_american_express">American Express</string>
+    <string name="pe_dinners_club">Dinners Club</string>
+    <string name="serialize_cip">serialize_cip</string>
+    <string name="payment_method_not_available">No disponible este método de pago</string>
+    <string name="type_method_payment">typePayment</string>
+    <string name="title_movil">Móvil</string>
+    <string name="title_agents">Agentes</string>
+    <string name="cip_subtitle">CIP :</string>
+    <string name="amount_subtitle">Monto</string>
+    <string name="date_expiry_subtitle">Fecha de vencimiento</string>
+    <string name="agent_bcp">BCP</string>
+    <string name="agent_banbif">BANBIF</string>
+    <string name="agent_bbva">BBVA</string>
+    <string name="agent_scotiabank">SCOTIABANK</string>
+    <string name="agent_ibk">IBK</string>
+    <string name="agent_kasnet">AGENTE KASNET</string>
+    <string name="agent_wester">WESTERN UNION</string>
+    <string name="agent_full_charge">FULL CARGA</string>
+
+    <string name="currency_soles">S/. %1$f</string>
+    <string name="summary_payment_name">Resumen</string>
+    <string name="follow_this_steps_subtitle">Sigue estos pasos</string>
+
+    <string name="title_summary_payment">Paga S/. %1$s en %2$s para reservar tu compra</string>
+    <string name="step_one_for_payment">1. Ve a tu agente %1$s más cercano</string>
+    <string name="step_two_for_payment">2. Indícale que harás un pago a PagoEfectivo - Código: 02186</string>
+    <string name="step_three_for_payment">3. Díctale al cajero este código CIP: %1$s</string>
+    <string name="agent_payment">agentPayment</string>
+    <string name="result_cip_list">resultCipList</string>
+    <string name="transaction_code_subtitle">Transaction Code : </string>
+    <string name="currency_subtitle">Currency : </string>
+    <string name="status_subtitle">Status : </string>
+    <string name="status_name_subtitle">Status Name : </string>
+    <string name="date_creation_subtitle">Date Creation :</string>
+    <string name="date_payment_subtitle">Date Payment :</string>
+    <string name="date_removal_subtitle">Date Removal</string>
+    <string name="cip_subtitle2">Cip :</string>
+    <string name="amount_subtitle2">Amount :</string>
+    <string name="date_expiry_subtitle2">Date Expiry :</string>
+
+    <string name="dateformat_with_values">%1$s/%2$s/%3$s %4$s:%5$s %6$s</string>
+
+    <string name="new_cip">New Cip</string>
+    <string name="limit_search_alert">Ha alcanzado el límite de búsquedas</string>
+    <string name="date_expire_hint">DateExpire</string>
+    <string name="cip_url">CIP URL:</string>
+</resources>

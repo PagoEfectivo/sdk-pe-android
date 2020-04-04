@@ -1,0 +1,94 @@
+apply plugin: 'maven-publish'
+apply plugin: 'com.android.library'
+
+ext {
+    versionMajor = 1
+    versionMinor = 0
+    versionPatch = 10
+    jenkinsBuildNumber = Integer.valueOf(System.getenv("BUILD_NUMBER") ?: "0")
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode computeVersionCode()
+        versionName computeVersionName()
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules-release.pro'
+            buildConfigField "String", "URL_BASE_PRE", "\"https://pre1a.services.pagoefectivo.pe/v1/\""
+            buildConfigField "String", "URL_BASE_PRO", "\"https://services.pagoefectivo.pe/v1/\""
+            buildConfigField "String", "DOMAIN_PRE", "\"pre1a.services.pagoefectivo.pe\""
+            buildConfigField "String", "DOMAIN_PRO", "\"services.pagoefectivo.pe\""
+
+            buildConfigField "String", "AUTHORIZATIONS", "\"authorizations\""
+            buildConfigField "String", "CIPS", "\"cips\""
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "URL_BASE_PRE", "\"https://pre1a.services.pagoefectivo.pe/v1/\""
+            buildConfigField "String", "URL_BASE_PRO", "\"https://services.pagoefectivo.pe/v1/\""
+            buildConfigField "String", "DOMAIN_PRE", "\"pre1a.services.pagoefectivo.pe\""
+            buildConfigField "String", "DOMAIN_PRO", "\"services.pagoefectivo.pe\""
+
+            buildConfigField "String", "AUTHORIZATIONS", "\"authorizations\""
+            buildConfigField "String", "CIPS", "\"cips\""
+        }
+    }
+
+}
+
+def computeVersionCode() {
+    return (versionMajor * 100_000) + (versionMinor * 10_000) + (versionPatch * 1000) + jenkinsBuildNumber
+}
+
+def computeVersionName() {
+    return "$versionMajor.$versionMinor.$versionPatch"
+}
+
+dependencies {
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    //implementation 'androidx.appcompat:appcompat:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+def artifactId = 'pagoefectivo-cip'
+def groupId = 'pe.elcomercio.pagoefectivo'
+
+project.afterEvaluate {
+    publishing {
+        publications {
+            library(MavenPublication) {
+                setGroupId groupId
+                //You can either define these here or get them from project conf elsewhere
+                setArtifactId artifactId
+                version android.defaultConfig.versionName
+                artifact bundleReleaseAar //aar artifact you want to publish
+
+                pom.withXml {
+                    def dependenciesNode = asNode().appendNode('dependencies')
+                    configurations.implementation.allDependencies.each {
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', it.group)
+                        dependencyNode.appendNode('artifactId', it.name)
+                        dependencyNode.appendNode('version', it.version)
+                    }
+                }
+            }
+        }
+    }
+}
