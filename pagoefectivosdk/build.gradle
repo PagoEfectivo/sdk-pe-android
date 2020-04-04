@@ -4,7 +4,7 @@ apply plugin: 'com.android.library'
 ext {
     versionMajor = 1
     versionMinor = 0
-    versionPatch = 10
+    versionPatch = 1
     jenkinsBuildNumber = Integer.valueOf(System.getenv("BUILD_NUMBER") ?: "0")
 }
 
