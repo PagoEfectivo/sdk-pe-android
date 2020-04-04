@@ -1,0 +1,9 @@
+pe.elcomercio.pagoefectivosdk
+string amount_required
+string app_name
+string currency_required
+string not_empty_request
+string object_not_null
+string one_element_invalid
+string transaction_code_required
+string user_email_required

@@ -1,0 +1,4 @@
+#Fri Apr 03 23:02:12 PET 2020
+base.0=/Users/carlosvargas/AndroidStudioProjects/sdk-pe-android/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

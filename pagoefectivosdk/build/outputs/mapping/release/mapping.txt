@@ -1,0 +1,101 @@
+# compiler: R8
+# compiler_version: 1.6.67
+# pg_map_id: 04202e5
+# common_typos_disable
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp -> pe.elcomercio.pagoefectivosdk.a:
+pe.elcomercio.pagoefectivosdk.api.ApiHelper -> pe.elcomercio.pagoefectivosdk.b.a:
+    pe.elcomercio.pagoefectivosdk.api.BaseModelPre basePre() -> a
+    pe.elcomercio.pagoefectivosdk.api.BaseModelPro basePro() -> b
+    pe.elcomercio.pagoefectivosdk.api.EndPointModel points() -> c
+pe.elcomercio.pagoefectivosdk.api.BaseModelPre -> pe.elcomercio.pagoefectivosdk.b.b:
+    java.lang.String getSanBox() -> a
+    java.lang.String getURLBASE() -> b
+pe.elcomercio.pagoefectivosdk.api.BaseModelPro -> pe.elcomercio.pagoefectivosdk.b.c:
+    java.lang.String getURLBASE() -> a
+pe.elcomercio.pagoefectivosdk.api.EndPointModel -> pe.elcomercio.pagoefectivosdk.b.d:
+    java.lang.String getAUTHORIZATIONS() -> a
+    java.lang.String getCIPS() -> b
+pe.elcomercio.pagoefectivosdk.api.ErrorUtil -> pe.elcomercio.pagoefectivosdk.b.e:
+    pe.elcomercio.pagoefectivosdk.models.ErrorResponse parseError(retrofit2.Response,boolean) -> a
+pe.elcomercio.pagoefectivosdk.api.PagoEfectivoApi -> pe.elcomercio.pagoefectivosdk.b.f:
+    retrofit2.Call generateCip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest) -> a
+    retrofit2.Call getToken(java.lang.String,java.lang.String,pe.elcomercio.pagoefectivosdk.models.GetTokenRequest) -> a
+pe.elcomercio.pagoefectivosdk.api.PagoEfectivoApiManager -> pe.elcomercio.pagoefectivosdk.b.g:
+    pe.elcomercio.pagoefectivosdk.api.PagoEfectivoApi pagoEfectivoApi -> a
+    pe.elcomercio.pagoefectivosdk.api.PagoEfectivoApi apiManager(boolean) -> a
+    java.lang.String getBaseUrl(boolean) -> b
+    okhttp3.logging.HttpLoggingInterceptor getInterceptor(boolean) -> c
+    retrofit2.Retrofit getRetrofit(boolean) -> d
+pe.elcomercio.pagoefectivosdk.auth.AuthInteractor -> pe.elcomercio.pagoefectivosdk.c.a:
+    void getToken(java.lang.String,boolean,pe.elcomercio.pagoefectivosdk.models.GetTokenRequest,pe.elcomercio.pagoefectivosdk.auth.AuthInteractor$OnAuthListener) -> a
+pe.elcomercio.pagoefectivosdk.auth.AuthInteractor$OnAuthListener -> pe.elcomercio.pagoefectivosdk.c.a$a:
+    void onAuthError(java.util.List) -> a
+    void onAuthFailure(java.lang.String) -> a
+    void onAuthSuccessful(java.lang.String) -> b
+pe.elcomercio.pagoefectivosdk.auth.AuthInteractorImpl -> pe.elcomercio.pagoefectivosdk.c.b:
+    void getToken(java.lang.String,boolean,pe.elcomercio.pagoefectivosdk.models.GetTokenRequest,pe.elcomercio.pagoefectivosdk.auth.AuthInteractor$OnAuthListener) -> a
+pe.elcomercio.pagoefectivosdk.auth.AuthInteractorImpl$1 -> pe.elcomercio.pagoefectivosdk.c.b$a:
+    pe.elcomercio.pagoefectivosdk.auth.AuthInteractor$OnAuthListener val$onAuthListener -> a
+    boolean val$isSandBox -> b
+pe.elcomercio.pagoefectivosdk.auth.model.TokenEntity -> pe.elcomercio.pagoefectivosdk.c.c.a:
+    pe.elcomercio.pagoefectivosdk.auth.model.TokenEntity instance -> b
+    java.lang.String token -> a
+    java.lang.String getToken() -> a
+    void setToken(java.lang.String) -> a
+    pe.elcomercio.pagoefectivosdk.auth.model.TokenEntity tokenInstance() -> b
+pe.elcomercio.pagoefectivosdk.cip.CipHelper -> pe.elcomercio.pagoefectivosdk.cip.a:
+    pe.elcomercio.pagoefectivosdk.cip.SecureModel getSecure() -> a
+    pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest mappingRequest(pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest) -> a
+    java.util.List validateGenerateCipRequestObject(pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest,android.content.Context) -> a
+pe.elcomercio.pagoefectivosdk.cip.CipInteractor -> pe.elcomercio.pagoefectivosdk.cip.b:
+    void generateCip(pe.elcomercio.pagoefectivosdk.util.Language,java.lang.String,boolean,pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest,pe.elcomercio.pagoefectivosdk.cip.SdkCipListener) -> a
+pe.elcomercio.pagoefectivosdk.cip.CipInteractorImpl -> pe.elcomercio.pagoefectivosdk.cip.c:
+    void generateCip(pe.elcomercio.pagoefectivosdk.util.Language,java.lang.String,boolean,pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest,pe.elcomercio.pagoefectivosdk.cip.SdkCipListener) -> a
+pe.elcomercio.pagoefectivosdk.cip.CipInteractorImpl$1 -> pe.elcomercio.pagoefectivosdk.cip.c$a:
+    pe.elcomercio.pagoefectivosdk.cip.SdkCipListener val$onSdkCipListener -> a
+    boolean val$isSandBox -> b
+pe.elcomercio.pagoefectivosdk.cip.SdkCipListener -> pe.elcomercio.pagoefectivosdk.cip.d:
+    void onRefreshToken() -> a
+pe.elcomercio.pagoefectivosdk.cip.SdkCipPresenterBase -> pe.elcomercio.pagoefectivosdk.cip.e:
+    pe.elcomercio.pagoefectivosdk.util.Language language -> e
+    pe.elcomercio.pagoefectivosdk.auth.model.TokenEntity tokenEntity -> f
+    java.lang.String secretKey -> c
+    java.lang.String accessKey -> b
+    int serviceId -> a
+    boolean isSandBox -> d
+    pe.elcomercio.pagoefectivosdk.models.GetTokenRequest getTokenRequest() -> b
+pe.elcomercio.pagoefectivosdk.cip.SdkCipPresenterImpl -> pe.elcomercio.pagoefectivosdk.cip.f:
+    pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest cipRequest -> i
+    pe.elcomercio.pagoefectivosdk.cip.SdkCipListener sdkCipListener -> j
+    pe.elcomercio.pagoefectivosdk.cip.CipInteractor cipInteractor -> g
+    android.content.Context context -> l
+    pe.elcomercio.pagoefectivosdk.cip.CipListener cipListener -> k
+    pe.elcomercio.pagoefectivosdk.auth.AuthInteractor authInteractor -> h
+    void generateCipPostRequest(pe.elcomercio.pagoefectivosdk.util.Language,int,java.lang.String,java.lang.String,boolean,pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest,pe.elcomercio.pagoefectivosdk.cip.CipListener,android.content.Context) -> a
+    void onAuthError(java.util.List) -> a
+    void onAuthFailure(java.lang.String) -> a
+    void onRefreshToken() -> a
+    void onAuthSuccessful(java.lang.String) -> b
+pe.elcomercio.pagoefectivosdk.cip.SecureModel -> pe.elcomercio.pagoefectivosdk.cip.g:
+    java.lang.String getName() -> a
+pe.elcomercio.pagoefectivosdk.util.DateTimeUtils -> pe.elcomercio.pagoefectivosdk.util.a:
+    java.lang.String getDateTimeFormat() -> a
+pe.elcomercio.pagoefectivosdk.util.Helper -> pe.elcomercio.pagoefectivosdk.util.b:
+    java.lang.String concatenateAuthRequest(int,java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String dateToString(java.util.Date) -> a
+    java.lang.String digest(pe.elcomercio.pagoefectivosdk.cip.SecureModel,java.lang.String) -> a
+    java.lang.String encodeHex(byte[]) -> a
+    boolean isAccessKeyValid(java.lang.String) -> a
+    boolean isServiceIdValid(int) -> a
+    boolean isSecretKeyValid(java.lang.String) -> b
+pe.elcomercio.pagoefectivosdk.util.Language -> pe.elcomercio.pagoefectivosdk.util.c:
+    pe.elcomercio.pagoefectivosdk.util.Language ENGLISH_USA -> c
+    pe.elcomercio.pagoefectivosdk.util.Language[] $VALUES -> e
+    pe.elcomercio.pagoefectivosdk.util.Language SPANISH_PERU -> d
+    java.lang.String language -> a
+    java.lang.String country -> b
+pe.elcomercio.pagoefectivosdk.util.LogUtil -> pe.elcomercio.pagoefectivosdk.util.d:
+    void e(java.lang.String,java.lang.String) -> a
+pe.elcomercio.pagoefectivosdk.util.RegexValidator -> pe.elcomercio.pagoefectivosdk.util.e:
+    java.util.regex.Pattern ALPHANUMERIC -> a
+    boolean isAlphaNumericString(java.lang.String) -> a

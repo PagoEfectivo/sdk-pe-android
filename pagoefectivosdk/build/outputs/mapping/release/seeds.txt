@@ -1,0 +1,310 @@
+pe.elcomercio.pagoefectivosdk.R$string: int app_name
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String transactionCode
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: java.lang.String getField()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: java.lang.String message
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserPhone(java.lang.String)
+pe.elcomercio.pagoefectivosdk.R$string: int object_not_null
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: android.content.Context context
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String getCurrency()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String transactionCode
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String getDateExpiry()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userCountry
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setAdminEmail(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: double getAmount()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: void setAmount(double)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: int cip
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: CipRequest()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: void setCode(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: CipEntity(int,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String)
+pe.elcomercio.pagoefectivosdk.util.DocumentType: DocumentType(java.lang.String,int,java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserDocumentNumber(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserDocumentType(pe.elcomercio.pagoefectivosdk.util.DocumentType)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userUbigeo
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userDocumentType
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String currency
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String currency
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserEmail()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String additionalData
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String adminEmail
+pe.elcomercio.pagoefectivosdk.R$string
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String cipUrl
+pe.elcomercio.pagoefectivosdk.util.Currency: java.lang.String currency
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: java.lang.String getMessage()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setAdditionalData(java.lang.String)
+pe.elcomercio.pagoefectivosdk.util.DocumentType: java.lang.String toString()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: void setCode(int)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: double amount
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String currency
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setServiceId(int)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: void setSandBox(boolean)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getDateExpiry()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserEmail(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: void setData(java.util.List)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setDateExpiry(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setTransactionCode(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType PARTIDA_NACIMIENTO
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: int cip
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserName(java.lang.String)
+pe.elcomercio.pagoefectivosdk.util.DocumentType: java.lang.String documentType
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String dateExpiry
+pe.elcomercio.pagoefectivosdk.util.Currency: Currency(java.lang.String,int,java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setDateRemoval(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String getToken()
+pe.elcomercio.pagoefectivosdk.R$string: int user_email_required
+pe.elcomercio.pagoefectivosdk.util.Currency: pe.elcomercio.pagoefectivosdk.util.Currency valueOf(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userCodeCountry
+pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk: pe.elcomercio.pagoefectivosdk.cip.SdkCipPresenterImpl sdkCipPresenter
+pe.elcomercio.pagoefectivosdk.R
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: void setCode(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: void setTransactionCode(java.lang.String)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: boolean isSandBox
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getTransactionCode()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String getDateExpiry()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: void setMessage(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setStatus(int)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.util.Date dateExpiry
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setCurrency(pe.elcomercio.pagoefectivosdk.util.Currency)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setPaymentConcept(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setCurrency(java.lang.String)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: void setSecretKey(java.lang.String)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk: pe.elcomercio.pagoefectivosdk.cip.SdkCipPresenterImpl getSdkCipPresenter()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserName()
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk getInstance()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserEmail()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserLastName()
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType OTROS
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean data
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: GenerateCipResponse$DataBean()
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType[] values()
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: GetTokenRequest()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: java.lang.String field
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError: CipError(int,java.lang.String,java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserPhone()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: int getCip()
+pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk: boolean validateKeyId()
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: java.lang.String accessKey
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType LIBRETA_MILITAR
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userCodeCountry
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk instance
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: int getCip()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: java.lang.String getCode()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean data
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserDocumentNumber()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: java.lang.String getMessage()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String getCodeService()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String transactionCode
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setPaymentConcept(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserUbigeo()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserEmail(java.lang.String)
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType[] $VALUES
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserCodeCountry()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: double getAmount()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setAmount(double)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String paymentConcept
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError: java.lang.String getMessage()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userLastName
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: java.lang.String hashString
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setAmount(double)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String dateExpiry
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: java.lang.String message
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setTransactionCode(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: int getServiceId()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getCurrency()
+pe.elcomercio.pagoefectivosdk.util.Language: pe.elcomercio.pagoefectivosdk.util.Language[] values()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: void setTokenExpires(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String getStatusName()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserCountry()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: int cip
+pe.elcomercio.pagoefectivosdk.util.Currency: pe.elcomercio.pagoefectivosdk.util.Currency[] values()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: double amount
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserCountry(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError: int getCode()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String adminEmail
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userCountry
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError: java.lang.String message
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userPhone
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserCodeCountry()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setDatePayment(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: java.lang.String getMessage()
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: void setAccessKey(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserLastName(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setAmount(double)
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: java.lang.String accessKey
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: pe.elcomercio.pagoefectivosdk.util.Currency getCurrency()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String paymentConcept
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: java.lang.String getAccessKey()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String dateExpiry
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType valueOf(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: int getCode()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: java.util.List data
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String currency
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String getCipUrl()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: pe.elcomercio.pagoefectivosdk.util.DocumentType userDocumentType
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: double getAmount()
+pe.elcomercio.pagoefectivosdk.util.Currency: pe.elcomercio.pagoefectivosdk.util.Currency USD
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: int status
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String codeService
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: void setCodeService(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType PASSPORT
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError: java.lang.String field
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserDocumentNumber(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getTransactionCode()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserUbigeo(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String token
+pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserCodeCountry(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: ErrorResponse$DataBean()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setCurrency(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: java.lang.String message
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: void setMessage(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: void setAccessKey(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String statusName
+pe.elcomercio.pagoefectivosdk.util.Currency: pe.elcomercio.pagoefectivosdk.util.Currency PEN
+pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk: void generateCip(pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest,pe.elcomercio.pagoefectivosdk.cip.CipListener)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userEmail
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserLastName()
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: void setDateRequest(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setDateCreation(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.CipListener
+pe.elcomercio.pagoefectivosdk.cip.CipListener: void onCipError(java.util.List)
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: int idService
+pe.elcomercio.pagoefectivosdk.R$string: R$string()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserDocumentNumber()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String getDateExpiry()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: void setCipUrl(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: pe.elcomercio.pagoefectivosdk.util.Currency currency
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: void setMessage(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userName
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setStatusName(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setTransactionCode(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: int getStatus()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: GetTokenResponse()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: java.lang.String message
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserName()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean getData()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: double getAmount()
+pe.elcomercio.pagoefectivosdk.R$string: int one_element_invalid
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: boolean initialized
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserCodeCountry(java.lang.String)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk initialize(android.content.Context)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: double getAmount()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: int serviceId
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String dateRemoval
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: ErrorResponse()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getAdditionalData()
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: java.lang.String getHashString()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserCountry(java.lang.String)
+pe.elcomercio.pagoefectivosdk.R$string: int transaction_code_required
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: GenerateCipResponse()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: java.lang.String code
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserUbigeo()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: int getCode()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserCountry()
+pe.elcomercio.pagoefectivosdk.R: R()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: void setField(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getUserDocumentType()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: GenerateCipRequest()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getAdminEmail()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userDocumentNumber
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: pe.elcomercio.pagoefectivosdk.util.DocumentType getUserDocumentType()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String getTransactionCode()
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: PagoEfectivoApp()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setDateExpiry(java.util.Date)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: java.lang.String secretKey
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserDocumentType(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String getTransactionCode()
+pe.elcomercio.pagoefectivosdk.util.Currency
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: int code
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: java.lang.String getCode()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setAdditionalData(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setDateExpiry(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String getCurrency()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: void setUserPhone(java.lang.String)
+pe.elcomercio.pagoefectivosdk.R$string: int currency_required
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse
+pe.elcomercio.pagoefectivosdk.util.Currency: pe.elcomercio.pagoefectivosdk.util.Currency[] $VALUES
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: void setData(pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean)
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: GetTokenResponse$DataBean()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: void setTokenStart(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String getDateCreation()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: java.lang.String getMessage()
+pe.elcomercio.pagoefectivosdk.cip.CipListener: void onCipFailure(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String tokenStart
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserLastName(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userName
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String getDateRemoval()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: void setCurrency(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: void setIdService(int)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: void setMessage(java.lang.String)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk: void generateCip(pe.elcomercio.pagoefectivosdk.util.Language,pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest,pe.elcomercio.pagoefectivosdk.cip.CipListener)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: void setCip(int)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String dateExpiry
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getAdditionalData()
+pe.elcomercio.pagoefectivosdk.util.DocumentType
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userLastName
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: int serviceId
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: int getIdService()
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: void setHashString(java.lang.String)
+pe.elcomercio.pagoefectivosdk.PagoEfectivoSdk: PagoEfectivoSdk()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String dateCreation
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String getTokenExpires()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getPaymentConcept()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String datePayment
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: java.lang.String getDateRequest()
+pe.elcomercio.pagoefectivosdk.util.Currency: java.lang.String toString()
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: java.lang.String code
+pe.elcomercio.pagoefectivosdk.models.GetTokenRequest: java.lang.String dateRequest
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String cipUrl
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setAdminEmail(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse$DataBean: int code
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userDocumentNumber
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String getTransactionCode()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userUbigeo
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String transactionCode
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: java.lang.String getCipUrl()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse: pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean getData()
+pe.elcomercio.pagoefectivosdk.R$string: int not_empty_request
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String getTokenStart()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: double amount
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: void setCode(int)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: double amount
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String userPhone
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: void setDateExpiry(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: void setToken(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean
+pe.elcomercio.pagoefectivosdk.PagoEfectivoApp: void setServiceId(int)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String userEmail
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String getCurrency()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String additionalData
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getAdminEmail()
+pe.elcomercio.pagoefectivosdk.cip.CipListener: void onCipSuccessful(pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity)
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse: void setData(pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserUbigeo(java.lang.String)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError: java.lang.String getField()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.util.Date getDateExpiry()
+pe.elcomercio.pagoefectivosdk.util.DocumentType: pe.elcomercio.pagoefectivosdk.util.DocumentType DNI
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: java.lang.String getUserPhone()
+pe.elcomercio.pagoefectivosdk.models.ErrorResponse: java.util.List getData()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: void setCip(int)
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipError: int code
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: java.lang.String getDatePayment()
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipEntity: int getCip()
+pe.elcomercio.pagoefectivosdk.models.GenerateCipResponse$DataBean: java.lang.String transactionCode
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipRequest: double amount
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: void setUserName(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GenerateCipRequest: java.lang.String getPaymentConcept()
+pe.elcomercio.pagoefectivosdk.R$string: int amount_required
+pe.elcomercio.pagoefectivosdk.util.Language: pe.elcomercio.pagoefectivosdk.util.Language valueOf(java.lang.String)
+pe.elcomercio.pagoefectivosdk.models.GetTokenResponse$DataBean: java.lang.String tokenExpires
+pe.elcomercio.pagoefectivosdk.cip.usermodel.CipSearch: CipSearch()
