@@ -6,6 +6,8 @@
   </a>
 </h1>
 
+[![Build Status](https://jitpack.io/v/PagoEfectivo/sdk-pe-android.svg)](https://jitpack.io/#PagoEfectivo/sdk-pe-android)
+
 El SDK de PagoEfectivo le permitirá implementar de forma rápida y sencilla las funcionalidades que ofrece para realizar transacciones online a través de la plataforma de PagoEfectivo para Android.
 
   ## Documentación
